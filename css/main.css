@@ -64,28 +64,33 @@
 #main1, #main3 {
   width: 100%;
   height: 900px;
-  background-color: rgba(255, 255, 255, 0.3); }
+  background-color: rgba(255, 255, 255, 0.3); 
+}
 
 #main2, #main4 {
   width: 100%;
-  height: 900px;
-  background: navy;
-  opacity: .7;
-  background: url("http://www.thekiltwalk.co.uk/main/images/New-York-skyline_0.jpg") no-repeat center fixed;
+  height: 800px;
+/*  background: navy;*/
+  /*opacity: .7;*/
+  /*background: url("coffe.png") no-repeat center fixed;*/
+background: url("../images/NYC.jpg") no-repeat center fixed;
+
   background-size: cover;
   color: black;
-  position: relative; }
+  position: relative; 
+  }
 
 .container {
   background-color: black;
-  height: 700px;
+  height: 400px;
   overflow: scroll;
-  border-radius: 20px; }
+  border-radius: 20px; 
+}
 
 img {
   background-color: black;
   width: 100%;
-  height: auto;
+ /* height: auto;*/
   overflow: scroll; }
 
 .rangers {
