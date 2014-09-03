@@ -61,11 +61,11 @@
 /*  background: navy;*/
   opacity: .9;
   /*background: url("coffe.png") no-repeat center fixed;*/
-background: url("../images/NYC2.jpg") no-repeat center fixed;
-/*background: radial-gradient(#464D74,#2B3A4B);*/
+/*background: url("../images/NYC2.jpg") no-repeat center fixed;*/
+background: radial-gradient(#464D74,#2B3A4B);*/
   background-size: cover;
   /*color: rgba(255,255,255,.5);*/
-  color: black;
+  color: rgba(255,255,255,.5);
   position: relative; 
   }
 
@@ -169,7 +169,7 @@ width: 33%;
 height: 50%;
 float: right;
 margin-right: 120px;
-background-color: rgba(250, 250, 250, 0.9);
+/*background-color: rgba(250, 250, 250, 0.9);*/
 border-radius: 20px; }
 
 .projectRight {
@@ -242,7 +242,7 @@ margin-left: 60px; }
   font-size: 38px;
   padding-top: 22px;
   padding-left: 1050px;
-    color: black;
+    color: rgba(255,255,255,.5);
   font-weight: bold; }
 
 #networks{
