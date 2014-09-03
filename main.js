@@ -28,22 +28,22 @@ $(document).ready(function(){
 
 $('#aboutMe').click(function () {
   $('html,body').animate({
-      scrollTop: $(document).height()/6.7,
+      scrollTop: $(document).height()/5.2,
   }, 1000);
 });
 $('#one').click(function () {
   $('html,body').animate({
-      scrollTop: $(document).height()/3.4,
+      scrollTop: $(document).height()/2.5,
   }, 1000);
 });
 $('#two').click(function () {
   $('html,body').animate({
-      scrollTop: $(document).height()/1.9,
+      scrollTop: $(document).height()/1.53,
   }, 1000);
 });
 $('#three').click(function () {
   $('html,body').animate({
-      scrollTop: $(document).height()/1.4,
+      scrollTop: $(document).height()/.5,
   }, 1000);
 });
 // $('#projects').click(function () {
