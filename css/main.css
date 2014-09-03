@@ -1,5 +1,5 @@
 #developer h3 {
-  font-family: arial;
+  font-family: optima;
   color: #d6d3d3;
   font-size: 18px;
   position: relative;
@@ -7,23 +7,7 @@
   margin-top: 40px;
   margin-bottom: 300px; }
 
-#social li {
-  display: inline-block; }
 
-#fb {
-  position: absolute;
-  right: 5px;
-  padding-top: 4px; }
-
-#twitter {
-  position: absolute;
-  right: 40px;
-  padding-top: 4px; }
-
-#email {
-  position: absolute;
-  right: 75px;
-  padding-top: 4px; }
 
 #home {
   width: 100%;
@@ -43,7 +27,7 @@
   height: 20px; }
 
 #projects {
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: optima;
   display: block;
   position: relative;
   text-align: center;
@@ -66,8 +50,9 @@
 #main1, #main3 {
   width: 100%;
   height: 700px;
+
   /*background-color: rgba(255, 255, 255, 0.3);*/ 
-  background: url("../images/white.jpg") 
+  background: url("../images/white2.jpg") 
 }
 
 #main2, #main4 {
@@ -76,10 +61,10 @@
 /*  background: navy;*/
   /*opacity: .7;*/
   /*background: url("coffe.png") no-repeat center fixed;*/
-background: url("../images/NYC.jpg") no-repeat center fixed;
-
+/*background: url("../images/NYC2.jpg") no-repeat center fixed;
+*/background: radial-gradient(#464D74,#2B3A4B);
   background-size: cover;
-  color: black;
+  color: rgba(255,255,255,.5);
   position: relative; 
   }
 
@@ -91,7 +76,7 @@ background: url("../images/NYC.jpg") no-repeat center fixed;
 }
 
 img {
-  background-color: black;
+  /*background-color: black;*/
   width: 100%;
  /* height: auto;*/
   overflow: scroll; }
@@ -105,7 +90,7 @@ img {
   width: 100%;
   height: 200px;
   font-size: 60px;
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: optima;
   color: #d6d3d3;
   padding-top: 200px;
   text-align: center;
@@ -115,7 +100,7 @@ img {
 
 .mainButton {
   width: 100px;
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: optima;
   background-color: transparent;
   border-radius: 30px;
   height: 30px;
@@ -128,7 +113,7 @@ img {
   height: 15%; }
 
 .topLine h3 {
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: optima;
   font-size: 38px;
   padding-top: 22px;
   padding-left: 23px; }
@@ -136,7 +121,7 @@ img {
 #AboutP {
   width: 100%;
   height: 500px;
- background: url("../images/white.jpg");
+ background: url("../images/white2.jpg");
  background-size: cover; 
   }
 
@@ -172,8 +157,7 @@ margin-top: 69px;
 .aboutLeft p, .aboutRight p {
   position: relative;
   width: 80%;
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align: center;
+  font-family: optima;
   padding-left: 40px;
   top: 20%;
   line-height: 25px; }
@@ -184,8 +168,8 @@ margin-top: 69px;
   height: 50%;
   float: right;
   margin-right: 120px;
-  background-color: rgba(214, 211, 211, 0.8);
-  border-radius: 20px; }
+  /*background-color: rgba(214, 211, 211, 0.8);
+  */border-radius: 20px; }
 
 .projectRight {
   position: relative;
@@ -197,7 +181,7 @@ margin-top: 69px;
 .projectLeft p {
   position: relative;
   width: 80%;
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: optima;
   text-align: center;
   padding-left: 40px;
   top: 20%;
@@ -221,7 +205,7 @@ margin-top: 69px;
 .projectLeft2 p {
   position: relative;
   width: 80%;
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: optima;
   text-align: center;
   padding-left: 40px;
   top: 20%;
@@ -246,19 +230,57 @@ margin-top: 69px;
 .projectRight3 p {
   position: relative;
   width: 80%;
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: optima;
   text-align: center;
   padding-left: 40px;
   top: 20%;
   line-height: 25px; }
 
 #main2title {
-  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: optima;
   font-size: 38px;
   padding-top: 22px;
   padding-left: 1050px;
-  color: black;
+    color: rgba(255,255,255,.5);
   font-weight: bold; }
 
+#networks{
+
+  background: linear-gradient(#D6CEC3,#E4DDCA),#D6CEC3;
+  height: 200px;
+  width: 100%;
+}
 #social {
+  position: relative;
+  display: inline-block; 
+   text-align: center;
+   margin: 10px;
+   margin-top: 56px;
+padding-left: 40%;
+
+}
+#social li{
+  margin: 10px;
+}
+#social li {
   display: inline-block; }
+/*#fb{
+    height: 52px;
+  width: 58px;
+  
+  background-size: cover;
+  background: url("../images/githublogo.png");
+}
+#email{
+  height: 52px;
+  width: 58px;
+  background: url("../images/twitter.png");
+  background-size: cover;
+ /* background-repeat: none;*/
+/*}
+#twitter{
+  height: 52px;
+  width: 58px;
+  background: url("../images/email.png");
+}*/
+/**/
