@@ -107,7 +107,20 @@ img {
   height: 30px;
   border: 1.8px solid #d6d3d3;
   color: #d6d3d3; }
-
+#weavButton{
+    width: 160px;
+  font-family: optima;
+  background-color: transparent;
+  border-radius: 30px;
+  height: 35px;
+  border: 3px solid #d6d3d3;
+  color: white; 
+  text-decoration: none;
+}
+#weavButton:visited{
+    color:white;
+  text-decoration: none;
+}
 .topLine {
   position: relative;
   width: 100%;
@@ -241,7 +254,7 @@ margin-left: 60px; }
   font-family: optima;
   font-size: 38px;
   padding-top: 22px;
-  padding-left: 1050px;
+  padding-left: 80%;
     color: rgba(255,255,255,.5);
   font-weight: bold; }
 
