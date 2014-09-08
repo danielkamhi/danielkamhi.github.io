@@ -33,7 +33,7 @@ $('#aboutMe').click(function () {
 });
 $('#one').click(function () {
   $('html,body').animate({
-      scrollTop: $(document).height()/2.5,
+      scrollTop: $(document).height()/1.9,
   }, 1000);
 });
 $('#two').click(function () {
