@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 $('#aboutMe').click(function () {
   $('html,body').animate({
-      scrollTop: $(document).height()/5.2,
+      scrollTop: $(document).height()/3.9,
   }, 1000);
 });
 $('#one').click(function () {
